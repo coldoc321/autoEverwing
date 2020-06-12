@@ -1,0 +1,359 @@
+####################################
+#         System information       #
+####################################
+# Date:                   2020:03:13 
+# Time:                   09:36:53 
+# Xnee program:           cnee 
+# Xnee version:           3.19 
+# Xnee home:              http://www.gnu.org/software/xnee/ 
+# Xnee info mailing list: info-xnee@gnu.org 
+# Xnee bug mailing list:  bug-xnee@gnu.org 
+# X version:              11 
+# X revision:             0 
+# X vendor:               The X.Org Foundation 
+# X vendor release:       11906000 
+# Record version major:   1
+# Record version minor:   13
+# OS name:                Linux 
+# OS Release:             4.15.0-88-generic 
+# OS Version:             #88-Ubuntu SMP Tue Feb 11 20:11:34 UTC 2020 
+# Machine:                x86_64 
+# Nodename:               gamer02 
+# Display name:           :1
+# Dimension:              1920x1200
+
+
+
+##############################################
+#      Xnee application arguments            #
+##############################################
+#  cnee --record -o shardClick.xnr --mouse --events-to-record 100000 --stop-key q --time 2 
+
+
+##############################################
+#      Displays                              #
+##############################################
+# display :1
+# distribute
+
+
+##############################################
+#      Files                                 #
+##############################################
+# out-file shardClick.xnr
+# err-file stderr
+
+
+##############################################
+#      Key Grabs                             #
+##############################################
+# stop-key         q
+# pause-key        0
+# resume-key       0
+# insert-key       0
+# exec-key         0
+# exec-program-key         xnee-exec-no-program
+
+
+##############################################
+#      Recording limits etc                  #
+##############################################
+
+events-to-record        100000
+data-to-record          -1
+seconds-to-record       -1
+# first-last
+
+# Record  all (including current) clients or only future ones
+all-clients
+# future-clients
+
+# Store the starting mouse position 
+# store-mouse-position
+
+
+##############################################
+#      Resolution                            #
+##############################################
+
+# Resolution
+#recorded-resolution  1920x1200
+#replay-resolution  1x1
+#resolution-adjustment  0
+
+
+##############################################
+#      Speed                                 #
+##############################################
+
+# Speed
+#speed-percent  100
+
+
+##############################################
+#      Replaying limits etc                  #
+##############################################
+
+max-threshold 20 
+min-threshold 20 
+tot-threshold 40 
+
+
+##############################################
+#      Feedback                              #
+##############################################
+#feedback-none
+#feedback-stderr
+feedback-xosd
+ 
+
+
+##############################################
+#      Various                               #
+##############################################
+
+# Plugin file 
+
+# Modes (currently not used)
+# synchronised-replay
+
+# Replay offset
+#replay-offset 0x0
+
+# Human printout of X11 data (instead of Xnee format)
+# human-printout  
+
+# Delay before starting record/replay
+# time 2
+
+# No recording of ReparentNotify
+# no-reparent-recording 
+
+# Various
+#########################################
+#          Record settings              #
+#########################################
+#   data_flags          7
+#   rState              0x555cfe1fa270
+#   xids[0]             3
+#   xids[1]             0
+# Number of Ranges      3
+# RecordRange[0]
+request-range            0-0
+reply-range                   0-0 
+extension-request-major-range  0-0 
+extension-request-minor-range  0-0 
+extension-reply-major-range   0-0
+extension-reply-minor-range   0-0 
+delivered-event-range         21-21 
+device-event-range            4-6 
+error-range                   0-0 
+# RecordRange[1]
+request-range            0-0
+reply-range                   0-0 
+extension-request-major-range  0-0 
+extension-request-minor-range  0-0 
+extension-reply-major-range   0-0
+extension-reply-minor-range   0-0 
+delivered-event-range         0-0 
+device-event-range            66-66 
+error-range                   0-0 
+# RecordRange[2]
+request-range            0-0
+reply-range                   0-0 
+extension-request-major-range  0-0 
+extension-request-minor-range  0-0 
+extension-reply-major-range   0-0
+extension-reply-minor-range   0-0 
+delivered-event-range         0-0 
+device-event-range            69-71 
+error-range                   0-0 
+7,5,0,0,1,0,0,312789591,9,Logitech USB Receiver
+6,5,0,0,1,0,0,312789591,2,Virtual core pointer
+7,4,0,0,1,0,0,312789631,9,Logitech USB Receiver
+6,4,0,0,1,0,0,312789631,2,Virtual core pointer
+7,6,992,617,0,0,0,312789737,9,'Logitech USB Receiver'
+7,6,991,617,0,0,0,312789743,9,'Logitech USB Receiver'
+7,5,0,0,1,0,0,312789749,9,Logitech USB Receiver
+6,5,0,0,1,0,0,312789749,2,Virtual core pointer
+7,6,991,618,0,0,0,312789755,9,'Logitech USB Receiver'
+7,6,991,619,0,0,0,312789759,9,'Logitech USB Receiver'
+7,6,991,621,0,0,0,312789769,9,'Logitech USB Receiver'
+7,6,991,622,0,0,0,312789775,9,'Logitech USB Receiver'
+7,6,991,624,0,0,0,312789787,9,'Logitech USB Receiver'
+7,4,0,0,1,0,0,312789819,9,Logitech USB Receiver
+6,4,0,0,1,0,0,312789819,2,Virtual core pointer
+7,6,990,626,0,0,0,312789831,9,'Logitech USB Receiver'
+7,6,989,627,0,0,0,312789839,9,'Logitech USB Receiver'
+7,6,988,626,0,0,0,312789847,9,'Logitech USB Receiver'
+7,6,987,626,0,0,0,312789857,9,'Logitech USB Receiver'
+7,6,984,624,0,0,0,312789863,9,'Logitech USB Receiver'
+7,6,982,622,0,0,0,312789871,9,'Logitech USB Receiver'
+7,6,979,620,0,0,0,312789881,9,'Logitech USB Receiver'
+7,6,978,619,0,0,0,312789889,9,'Logitech USB Receiver'
+7,6,977,617,0,0,0,312789895,9,'Logitech USB Receiver'
+7,5,0,0,1,0,0,312789907,9,Logitech USB Receiver
+6,5,0,0,1,0,0,312789907,2,Virtual core pointer
+7,6,976,614,0,0,0,312789911,9,'Logitech USB Receiver'
+7,6,976,613,0,0,0,312789943,9,'Logitech USB Receiver'
+7,6,976,612,0,0,0,312789951,9,'Logitech USB Receiver'
+7,6,977,612,0,0,0,312789961,9,'Logitech USB Receiver'
+7,4,0,0,1,0,0,312789961,9,Logitech USB Receiver
+6,4,0,0,1,0,0,312789961,2,Virtual core pointer
+7,6,978,612,0,0,0,312789967,9,'Logitech USB Receiver'
+7,6,981,613,0,0,0,312789977,9,'Logitech USB Receiver'
+7,6,982,615,0,0,0,312789999,9,'Logitech USB Receiver'
+7,6,982,617,0,0,0,312790083,9,'Logitech USB Receiver'
+7,5,0,0,1,0,0,312790095,9,Logitech USB Receiver
+6,5,0,0,1,0,0,312790095,2,Virtual core pointer
+7,6,982,618,0,0,0,312790121,9,'Logitech USB Receiver'
+7,4,0,0,1,0,0,312790133,9,Logitech USB Receiver
+6,4,0,0,1,0,0,312790133,2,Virtual core pointer
+7,6,980,617,0,0,0,312790179,9,'Logitech USB Receiver'
+7,6,980,618,0,0,0,312790187,9,'Logitech USB Receiver'
+7,6,981,619,0,0,0,312790195,9,'Logitech USB Receiver'
+7,6,981,620,0,0,0,312790203,9,'Logitech USB Receiver'
+7,6,981,621,0,0,0,312790215,9,'Logitech USB Receiver'
+7,5,0,0,1,0,0,312790271,9,Logitech USB Receiver
+6,5,0,0,1,0,0,312790271,2,Virtual core pointer
+7,6,981,623,0,0,0,312790279,9,'Logitech USB Receiver'
+7,6,981,622,0,0,0,312790287,9,'Logitech USB Receiver'
+7,6,981,620,0,0,0,312790295,9,'Logitech USB Receiver'
+7,4,0,0,1,0,0,312790303,9,Logitech USB Receiver
+6,4,0,0,1,0,0,312790303,2,Virtual core pointer
+7,5,0,0,1,0,0,312790447,9,Logitech USB Receiver
+6,5,0,0,1,0,0,312790447,2,Virtual core pointer
+7,4,0,0,1,0,0,312790471,9,Logitech USB Receiver
+6,4,0,0,1,0,0,312790471,2,Virtual core pointer
+7,5,0,0,1,0,0,312790603,9,Logitech USB Receiver
+6,5,0,0,1,0,0,312790603,2,Virtual core pointer
+7,4,0,0,1,0,0,312790653,9,Logitech USB Receiver
+6,4,0,0,1,0,0,312790653,2,Virtual core pointer
+7,5,0,0,1,0,0,312790779,9,Logitech USB Receiver
+6,5,0,0,1,0,0,312790779,2,Virtual core pointer
+7,6,981,617,0,0,0,312790779,9,'Logitech USB Receiver'
+7,6,981,616,0,0,0,312790799,9,'Logitech USB Receiver'
+7,6,981,616,0,0,0,312790807,9,'Logitech USB Receiver'
+7,4,0,0,1,0,0,312790853,9,Logitech USB Receiver
+6,4,0,0,1,0,0,312790853,2,Virtual core pointer
+7,6,981,615,0,0,0,312790935,9,'Logitech USB Receiver'
+7,6,981,615,0,0,0,312790947,9,'Logitech USB Receiver'
+7,6,982,615,0,0,0,312790961,9,'Logitech USB Receiver'
+7,6,984,615,0,0,0,312790969,9,'Logitech USB Receiver'
+7,5,0,0,1,0,0,312790973,9,Logitech USB Receiver
+6,5,0,0,1,0,0,312790973,2,Virtual core pointer
+7,6,985,615,0,0,0,312790977,9,'Logitech USB Receiver'
+7,6,986,615,0,0,0,312791005,9,'Logitech USB Receiver'
+7,6,987,614,0,0,0,312791021,9,'Logitech USB Receiver'
+7,6,988,616,0,0,0,312791029,9,'Logitech USB Receiver'
+7,4,0,0,1,0,0,312791029,9,Logitech USB Receiver
+6,4,0,0,1,0,0,312791029,2,Virtual core pointer
+7,6,988,618,0,0,0,312791037,9,'Logitech USB Receiver'
+7,6,988,619,0,0,0,312791047,9,'Logitech USB Receiver'
+7,6,988,620,0,0,0,312791055,9,'Logitech USB Receiver'
+7,6,988,621,0,0,0,312791091,9,'Logitech USB Receiver'
+7,6,988,622,0,0,0,312791099,9,'Logitech USB Receiver'
+7,6,987,622,0,0,0,312791107,9,'Logitech USB Receiver'
+7,6,985,618,0,0,0,312791115,9,'Logitech USB Receiver'
+7,6,984,616,0,0,0,312791123,9,'Logitech USB Receiver'
+7,6,984,613,0,0,0,312791131,9,'Logitech USB Receiver'
+7,5,0,0,1,0,0,312791135,9,Logitech USB Receiver
+6,5,0,0,1,0,0,312791135,2,Virtual core pointer
+7,6,984,612,0,0,0,312791139,9,'Logitech USB Receiver'
+7,6,983,609,0,0,0,312791151,9,'Logitech USB Receiver'
+7,4,0,0,1,0,0,312791163,9,Logitech USB Receiver
+6,4,0,0,1,0,0,312791163,2,Virtual core pointer
+7,6,983,608,0,0,0,312791189,9,'Logitech USB Receiver'
+7,6,983,609,0,0,0,312791199,9,'Logitech USB Receiver'
+7,6,983,610,0,0,0,312791207,9,'Logitech USB Receiver'
+7,6,983,611,0,0,0,312791215,9,'Logitech USB Receiver'
+7,6,983,612,0,0,0,312791253,9,'Logitech USB Receiver'
+7,6,981,613,0,0,0,312791261,9,'Logitech USB Receiver'
+7,6,980,613,0,0,0,312791271,9,'Logitech USB Receiver'
+7,6,979,611,0,0,0,312791279,9,'Logitech USB Receiver'
+7,6,979,609,0,0,0,312791289,9,'Logitech USB Receiver'
+7,5,0,0,1,0,0,312791291,9,Logitech USB Receiver
+6,5,0,0,1,0,0,312791291,2,Virtual core pointer
+7,6,978,607,0,0,0,312791325,9,'Logitech USB Receiver'
+7,6,978,609,0,0,0,312791333,9,'Logitech USB Receiver'
+7,4,0,0,1,0,0,312791333,9,Logitech USB Receiver
+6,4,0,0,1,0,0,312791333,2,Virtual core pointer
+7,6,979,612,0,0,0,312791343,9,'Logitech USB Receiver'
+7,6,981,616,0,0,0,312791351,9,'Logitech USB Receiver'
+7,6,981,619,0,0,0,312791359,9,'Logitech USB Receiver'
+7,6,981,622,0,0,0,312791367,9,'Logitech USB Receiver'
+7,6,981,624,0,0,0,312791407,9,'Logitech USB Receiver'
+7,6,980,624,0,0,0,312791415,9,'Logitech USB Receiver'
+7,6,980,620,0,0,0,312791423,9,'Logitech USB Receiver'
+7,6,979,616,0,0,0,312791431,9,'Logitech USB Receiver'
+7,6,977,611,0,0,0,312791439,9,'Logitech USB Receiver'
+7,5,0,0,1,0,0,312791443,9,Logitech USB Receiver
+6,5,0,0,1,0,0,312791443,2,Virtual core pointer
+7,6,976,605,0,0,0,312791451,9,'Logitech USB Receiver'
+7,4,0,0,1,0,0,312791471,9,Logitech USB Receiver
+6,4,0,0,1,0,0,312791471,2,Virtual core pointer
+7,6,976,604,0,0,0,312791487,9,'Logitech USB Receiver'
+7,6,977,605,0,0,0,312791495,9,'Logitech USB Receiver'
+7,6,978,608,0,0,0,312791503,9,'Logitech USB Receiver'
+7,6,980,611,0,0,0,312791511,9,'Logitech USB Receiver'
+7,6,981,613,0,0,0,312791519,9,'Logitech USB Receiver'
+7,6,981,614,0,0,0,312791527,9,'Logitech USB Receiver'
+7,6,982,617,0,0,0,312791571,9,'Logitech USB Receiver'
+7,6,982,616,0,0,0,312791579,9,'Logitech USB Receiver'
+7,6,979,613,0,0,0,312791587,9,'Logitech USB Receiver'
+7,6,979,611,0,0,0,312791597,9,'Logitech USB Receiver'
+7,6,978,610,0,0,0,312791603,9,'Logitech USB Receiver'
+7,5,0,0,1,0,0,312791609,9,Logitech USB Receiver
+6,5,0,0,1,0,0,312791609,2,Virtual core pointer
+7,4,0,0,1,0,0,312791639,9,Logitech USB Receiver
+6,4,0,0,1,0,0,312791639,2,Virtual core pointer
+7,6,977,609,0,0,0,312791717,9,'Logitech USB Receiver'
+7,6,976,607,0,0,0,312791729,9,'Logitech USB Receiver'
+7,6,976,607,0,0,0,312791739,9,'Logitech USB Receiver'
+7,6,975,607,0,0,0,312791785,9,'Logitech USB Receiver'
+7,5,0,0,1,0,0,312791785,9,Logitech USB Receiver
+6,5,0,0,1,0,0,312791785,2,Virtual core pointer
+7,6,974,608,0,0,0,312791793,9,'Logitech USB Receiver'
+7,4,0,0,1,0,0,312791798,9,Logitech USB Receiver
+6,4,0,0,1,0,0,312791798,2,Virtual core pointer
+7,6,974,609,0,0,0,312791805,9,'Logitech USB Receiver'
+7,6,974,611,0,0,0,312791813,9,'Logitech USB Receiver'
+7,6,975,614,0,0,0,312791821,9,'Logitech USB Receiver'
+7,6,975,617,0,0,0,312791839,9,'Logitech USB Receiver'
+7,6,975,618,0,0,0,312791901,9,'Logitech USB Receiver'
+7,6,975,615,0,0,0,312791913,9,'Logitech USB Receiver'
+7,6,974,612,0,0,0,312791921,9,'Logitech USB Receiver'
+7,5,0,0,1,0,0,312791945,9,Logitech USB Receiver
+6,5,0,0,1,0,0,312791945,2,Virtual core pointer
+7,4,0,0,1,0,0,312791958,9,Logitech USB Receiver
+6,4,0,0,1,0,0,312791958,2,Virtual core pointer
+7,6,973,610,0,0,0,312791987,9,'Logitech USB Receiver'
+7,6,973,611,0,0,0,312791995,9,'Logitech USB Receiver'
+7,6,973,613,0,0,0,312792003,9,'Logitech USB Receiver'
+7,6,973,617,0,0,0,312792011,9,'Logitech USB Receiver'
+7,6,973,620,0,0,0,312792019,9,'Logitech USB Receiver'
+7,6,973,621,0,0,0,312792027,9,'Logitech USB Receiver'
+7,6,973,622,0,0,0,312792063,9,'Logitech USB Receiver'
+7,6,972,621,0,0,0,312792071,9,'Logitech USB Receiver'
+7,6,972,619,0,0,0,312792079,9,'Logitech USB Receiver'
+7,6,971,615,0,0,0,312792087,9,'Logitech USB Receiver'
+7,5,0,0,1,0,0,312792091,9,Logitech USB Receiver
+6,5,0,0,1,0,0,312792091,2,Virtual core pointer
+7,6,971,613,0,0,0,312792095,9,'Logitech USB Receiver'
+7,4,0,0,1,0,0,312792121,9,Logitech USB Receiver
+6,4,0,0,1,0,0,312792121,2,Virtual core pointer
+7,6,971,610,0,0,0,312792153,9,'Logitech USB Receiver'
+7,6,971,611,0,0,0,312792161,9,'Logitech USB Receiver'
+7,6,971,613,0,0,0,312792169,9,'Logitech USB Receiver'
+7,6,971,614,0,0,0,312792237,9,'Logitech USB Receiver'
+7,6,970,613,0,0,0,312792253,9,'Logitech USB Receiver'
+7,5,0,0,1,0,0,312792257,9,Logitech USB Receiver
+6,5,0,0,1,0,0,312792257,2,Virtual core pointer
+7,4,0,0,1,0,0,312792289,9,Logitech USB Receiver
+6,4,0,0,1,0,0,312792289,2,Virtual core pointer
+7,5,0,0,1,0,0,312792417,9,Logitech USB Receiver
+6,5,0,0,1,0,0,312792417,2,Virtual core pointer
+7,4,0,0,1,0,0,312792455,9,Logitech USB Receiver
+6,4,0,0,1,0,0,312792455,2,Virtual core pointer
+7,5,0,0,1,0,0,312792595,9,Logitech USB Receiver
+6,5,0,0,1,0,0,312792595,2,Virtual core pointer
